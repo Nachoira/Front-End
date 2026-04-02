@@ -1,0 +1,98 @@
+/* 🔹 Reset y Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+    background-color: #121212 !important; /* Fondo neutro profundo */
+    color: #e0e0e0; 
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 🔹 Barra de navegación (Optimizado para pulgares) */
+.navbar {
+    background-color: rgba(30, 30, 30, 0.95) !important;
+    backdrop-filter: blur(10px); /* Efecto cristal moderno */
+    border-bottom: 1px solid #333;
+    padding: 15px 20px !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.navbar-nav .nav-link {
+    color: #b0b0b0 !important;
+    padding: 12px 0; /* Mayor área de toque */
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3b82f6 !important; /* Azul moderno brillante */
+    background: transparent;
+}
+
+/* 🔹 Contenedores (Adaptación móvil) */
+.container {
+    background-color: #1e1e1e;
+    padding: 25px 20px;
+    margin: 15px; /* Margen para que no toque los bordes del cel */
+    border-radius: 16px;
+    border: 1px solid #2d2d2d;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+}
+
+/* 🔹 Encabezados */
+h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #3b82f6;
+    padding-left: 15px;
+}
+
+/* 🔹 Listas (Estilo Cards) */
+.list-group-item {
+    background-color: #2a2a2a;
+    color: #ccc;
+    border: 1px solid #333;
+    margin-bottom: 8px;
+    border-radius: 8px !important;
+    padding: 15px;
+}
+
+.list-group-item:active { /* Feedback táctil al presionar */
+    background-color: #3b82f6;
+    color: white;
+}
+
+/* 🔹 Foto de Perfil */
+img.img-fluid {
+    border: 3px solid #3b82f6;
+    border-radius: 50%; /* Circular suele verse más profesional */
+    max-width: 120px;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+/* 🔹 Botones y Enlaces */
+a {
+    color: #60a5fa;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+a:active {
+    opacity: 0.7;
+}
+
+/* 🔹 Ajustes de Espaciado */
+.mt-5 {
+    margin-top: 3rem !important;
+}
